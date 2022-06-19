@@ -1,0 +1,35 @@
+.main-nav{
+    margin-top: 10px;
+    list-style: none;
+    padding-left: 0px;
+    background-color: #13a4a4;
+}
+
+.main-nav__item{
+    display: inline-block;  /*forma horizontal el nav*/
+
+}
+
+.main-nav__item a{
+    color: white;
+    padding: 5px;
+    border-radius: 2px;
+    text-decoration: none;
+}
+
+/*Asi se utiliza la pseudoclase*/
+.main-nav__item a:hover{
+    color: yellow;
+}
+
+.main-nav__item a:active{
+    color: red;
+}
+
+/*Asi se utiliza la pseudoelementos*/
+.main-nav__item a::after{
+    content: " | ";
+}
+
+
+

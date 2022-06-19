@@ -1,0 +1,36 @@
+body {
+    margin: 0;
+    font: 100% / 1.5 Inconsolata, monospace;
+    color: aquamarine;
+    background-color: rgb(0, 82, 114);
+}
+
+.titulos {
+    color: aquamarine;
+    text-align: center;
+}
+
+main {
+    margin: 2rem auto 4rem;
+    width: 90%;
+    max-width: 70rem;
+  }
+
+img {
+    
+    -webkit-box-reflect: right;
+    border-radius: 8px;
+  }
+
+li {
+    text-align: justify;
+    color: rgb(207, 194, 7);
+    text-align-last: auto;
+}
+
+.subtitulos{
+    text-align: justify;
+    color: yellow;
+     text-transform: uppercase;
+}
+

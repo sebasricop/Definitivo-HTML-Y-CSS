@@ -1,0 +1,39 @@
+/*RESETEAR ESTILOS EN CSS - SELECTRO UNIVERSAL (*) */
+* {
+    box-sizing: border-box; /*hace que calcule automaticamente el tamaño del border y del padding*/
+    padding: 0;
+    margin: 0;
+}
+
+h1{
+    color: purple;
+    margin-bottom: 10px;
+}
+
+.title{
+    font-size: 18px;
+    font-family: monospace;
+}
+
+.nav{
+    margin-top: 10px;
+    list-style: none;
+    padding-left: 0;
+}
+
+.nav li{
+    display: inline-block;
+
+}
+
+.nav a{
+    color:white;
+    background-color: cadetblue;
+    padding: 5px;
+    border-radius: 2px;
+    text-decoration: none;
+}
+
+.nav .blog{
+    background-color: red;
+}

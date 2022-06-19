@@ -1,0 +1,24 @@
+/*Adjacent sibling
+h2 + p {
+    color: red;
+}
+*/
+
+/*General Sibling - Hermano general - alt + 126 para sacar simbolo 
+h2 ~ p{
+    color: blue;
+}
+*/
+
+/*Combinador Hijo y descendiente 
+combinador child-hijo
+div > p {
+    color: red;
+}
+este es para aplicar un hijo directo de p*/
+
+/*Combinador descendiente
+*/
+div p {
+    color: blue;
+}
